@@ -2,13 +2,13 @@
 
 A polished Streamlit app for scraping the public demo catalogue at Books to Scrape, searching books with TF-IDF/cosine similarity, exploring categories, and viewing a basic regression-based price estimate.
 
-## Files
-- `app.py` — Streamlit app and scraping/model logic
-- `requirements.txt` — Python dependencies
-- `complete_books_database.csv` — created automatically after fetching books (not included initially)
-- `.gitignore` — ignores local environment and generated data
-- `packages.txt` — optional system packages file for Streamlit Community Cloud
-
+bookwise-ai/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── packages.txt
 ## Run locally
 Python 3.10+ is recommended.
 
